@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to PDF Converter</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Image to PDF Converter</h1>
+        <p>Upload images and convert them to a single PDF file.</p>
+
+        <!-- drag and drop area -->
+        <div class="upload-area" id="dropArea">
+            <input type="file" id="fileInput" accept="image/*" multiple>
+            <span class="upload-label">Choose Images or Drag & Drop</span>
+        </div>
+
+        <!-- preview -->
+        <div class="preview" id="imagePreview"></div>
+
+        <!-- buttons -->
+        <div class="actions">
+            <button id="clearBtn">Clear All</button>
+            <button id="convertBtn">Convert to PDF</button>
+        </div>
+
+        <!-- compression -->
+        <div class="options">
+            <label for="compression">Compression Quality:</label>
+            <select id="compression">
+                <option value="1.0">High Quality (No Compression)</option>
+                <option value="0.7">Medium (Balanced)</option>
+                <option value="0.5">Low (Smallest Size)</option>
+            </select>
+        </div>
+
+        <!-- loader -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Generating PDF...</p>
+        </div>
+    </div>
+
+    <!-- ad unit -->
+    <div class="ad-container" style="margin: 20px auto; text-align: center;">
+        <script type="text/javascript">
+            atOptions = {
+                'key': 'f9df287f4aeb64a2ac52efffa367225a',
+                'format': 'iframe',
+                'height': 50,
+                'width': 320,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript"
+            src="//www.highperformanceformat.com/f9df287f4aeb64a2ac52efffa367225a/invoke.js"></script>
+    </div>
+
+    <script src="https://unpkg.com/pdf-lib@1.16.0/dist/pdf-lib.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

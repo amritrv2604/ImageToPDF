@@ -13,15 +13,15 @@ This is a versatile and user-friendly "Image to PDF Converter" project, develope
 
 # Screenshots
 
-![word counter](https://github.com/amritrv2604/word-counter-JS/blob/main/assets/word-counter.png?raw=true)
-- This is how the interface looks like.
+![ImgToPDF](https://github.com/amritrv2604/ImageToPDF/blob/main/assets/p1.png?raw=true)
+- This is how the interface looks.
 
 
 # Deployment
 
 To deploy this project in your local system, run:
 ```bash
-gh repo clone amritrv2604/word-counter-JS
+https://github.com/amritrv2604/ImageToPDF.git
 ```
 
 # Technologies Used

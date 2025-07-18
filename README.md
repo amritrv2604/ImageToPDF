@@ -1,40 +1,34 @@
 ## Image to PDF Converter
 
-- A practical and efficient word-counting tool.
-- It provides accurate word counts, character counts, sentence counts, paragraph counts, and even estimates reading time.
-- User-friendly interface makes it easy to input text and instantly get relevant statistics.
+# Introduction
+This is a versatile and user-friendly "Image to PDF Converter" project, developed using HTML, CSS, and JavaScript. It provides a seamless experience for converting multiple image files into a single PDF document. This project is available as both a web application and a mobile application, ensuring accessibility across various devices.
 
+# Features
+- Multi-image Conversion: Convert multiple images into a single PDF file.
+- Drag & Drop Functionality: Easily upload images by dragging and dropping them into the designated area.
+- Compression Quality Options: Choose from different compression levels (e.g., Medium (Balanced)) to optimize file size.
+- Clear All Functionality: Clear all selected images with a single click.
+- Intuitive User Interface: A clean and straightforward design ensures ease of use.
+- Cross-Platform Availability: Accessible via web browsers and as a mobile application.
 
-## Features
-
-- Accurately count words as you type.
-- Provides character, sentence, and paragraph counts
-- Gives an approximate reading time based on word count.
-- Identifies the most frequently used words in the text.
-- Easy-to-use design for a seamless experience.
-
-
-## Screenshots
+# Screenshots
 
 ![word counter](https://github.com/amritrv2604/word-counter-JS/blob/main/assets/word-counter.png?raw=true)
 - This is how the interface looks like.
 
 
-## Deployment
+# Deployment
 
 To deploy this project in your local system, run:
 ```bash
 gh repo clone amritrv2604/word-counter-JS
 ```
 
-
-## Technologies Used
-
-- HTML: Defines the structure of the word counter.
-- CSS: Styles the appearance of the tool.
-- JavaScript: Provides the logic for word counting, analysis, and display.
+# Technologies Used
+- HTML: Structures the content of the converter.
+- CSS: Styles the appearance and layout of the application.
+- JavaScript: Handles the image processing, PDF generation, and all interactive functionalities.
 
 
-## Contributing
-
+# Contributing
 Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request.
